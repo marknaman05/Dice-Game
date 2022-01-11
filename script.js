@@ -93,5 +93,7 @@
 document.querySelector('.btn--new').addEventListener('click',function() {
     document.getElementById('score--0').innerHTML = 0;
     document.getElementById('score--1').innerHTML = 0;
+    document.getElementById('current--1').innerHTML = 0;
+    document.getElementById('current--0').innerHTML = 0;
     switchToPlayer1();
 })
